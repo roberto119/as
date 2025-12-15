@@ -1,0 +1,600 @@
+[06:18:20] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[06:18:20] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[06:18:21] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06:18:22] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/as/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23104!/ Service=ModLauncher Env=SERVER
+[06:18:22] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/as/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[06:18:22] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 9 dependencies adding them to mods collection
+[06:18:25] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[06:18:25] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[06:18:25] [main/WARN] [mixin]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:18:25] [main/WARN] [mixin]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[06:18:25] [main/INFO] [Embeddium]: Loaded configuration file for Embeddium: 105 options available, 0 override(s) found
+[06:18:25] [main/WARN] [mixin]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:18:25] [main/INFO] [Puzzles Lib]: Loading 58 mods:
+	- alexscaves 2.0.2
+	- alexsmobs 1.22.9
+	- animation_overhaul 1.3.1
+	- aquamirae 6.API15
+	- balm 7.3.10
+		\-- kuma_api 20.1.9-SNAPSHOT
+	- bettervillage 3.2.0
+	- biomesoplenty 19.0.0.94
+	- caelus 3.2.0+1.20.1
+	- call_of_yucutan 1.0.13
+	- cameraoverhaul 1.0.0
+	- cataclysm 2.31
+	- citadel 2.6.1
+	- cloth_config 11.1.136
+	- coroutil 1.20.1-1.3.7
+	- ctov 3.4.10
+	- curios 5.11.0+1.20.1
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- forge 47.4.4
+		\-- mohist 1.20.1
+	- geckolib 4.7
+	- glitchcore 0.0.1.1
+	- graveyard 3.1
+	- incendium 5.3.5
+	- irons_spellbooks 1.20.1-3.4.0.6
+	- jade 11.12.2+forge
+	- jei 15.20.0.105
+	- journeymap 5.10.3
+	- libraryferret 4.0.0
+	- lionfishapi 2.4-Fix
+	- lithostitched 1.3.8
+	- minecraft 1.20.1
+	- myserveriscompatible 1.0
+	- necronomicon 1.6.0
+	- obscure_api 15
+	- obscure_tooltips 2.2
+	- pickupnotifier 8.0.0
+	- playeranimator 1.0.2-rc1+1.20
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- resourcefullib 2.1.29
+	- ribbits 1.20.1-Forge-3.0.2
+	- sophisticatedbackpacks 3.21.2.1163
+	- sophisticatedcore 1.0.6.824
+	- spartanshields 3.1.1
+	- tectonic 2.4.1
+	- terrablender 3.0.1.7
+	- the_bumblezone 7.5.9+1.20.1-forge
+		|-- athena 3.1.1
+		\-- mixinextras 0.4.1
+	- tombstone 8.8.6
+	- travelerstitles 1.20-Forge-4.0.2
+	- treechop 0.19.0
+	- veinmining 1.5.0+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- voicechat 1.20.1-2.6.7
+		\-- voicechat_api 2.6.0
+	- watut 1.20.1-1.1.3
+	- waystones 14.1.6
+	- yungsapi 1.20-Forge-4.0.6
+[06:18:26] [main/WARN] [mixin]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:18:28] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[06:18:31] [main/WARN] [mixin]: Method overwrite conflict for setBlockState in the_bumblezone-common.mixins.json:blocks.FallingBlockEntityAccessor, previously written by com.github.alexmodguy.alexscaves.mixin.FallingBlockEntityMixin. Skipping method.
+[06:18:35] [main/WARN] [mixin]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[06:18:36] [modloading-worker-0/INFO] [necronomicon]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
+[06:18:36] [modloading-worker-0/INFO] [necronomicon]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
+[06:18:36] [modloading-worker-0/INFO] [necronomicon]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
+[06:18:36] [modloading-worker-0/INFO] [necronomicon]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
+[06:18:36] [modloading-worker-0/INFO] [animation_overhaul]: Animation Overhaul's Config initialized
+[06:18:36] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialize mod Library Ferret
+[06:18:36] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret]: Initialized mod Library Ferret
+[06:18:36] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@55222ee9 on thread Thread[modloading-worker-0,5,main]
+[06:18:36] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:157) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar:6.0.5+0+master.c510e2cc]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:121) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:257) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:267) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:257) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:144) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2324) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2420) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2127) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:407) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:315) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:315) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23260!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23260!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23260!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23260!/:com.obscuria]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:83) ~[javafmllanguage-1.20.1-47.4.4.jar%23284!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.4.4.jar%23283!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[06:18:37] [modloading-worker-0/INFO] [graveyard]: Registered JSON trade offer adapter.
+[06:18:37] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for pickupnotifier:main
+[06:18:37] [modloading-worker-0/INFO] [coroutil]: forge loader environment detected
+[06:18:37] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[06:18:37] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[06:18:37] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.4.4, for MC 1.20.1 with MCP 20230612.114412
+[06:18:37] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.4.4 Initialized
+[06:18:37] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.106 Initialized
+[06:18:37] [modloading-worker-0/INFO] [necronomicon]: Necronomicon Initialized
+[06:18:37] [modloading-worker-0/INFO] [necronomicon]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[06:18:37] [modloading-worker-0/INFO] [necronomicon]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[06:18:37] [modloading-worker-0/INFO] [necronomicon]: there is a brick about to fall through your roof at terminal velocity
+[06:18:37] [modloading-worker-0/INFO] [Spartan Shields]: Constructing Mod: Spartan Shields
+[06:18:38] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
+[06:18:39] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@3cb7d83a has been registered twice for the same name treechop:chop_wood.
+[06:18:43] [main/INFO] [Spartan Shields]: Loading config spartanshields-common.toml
+[06:18:43] [Thread-2/INFO] [Spartan Shields]: Loading config spartanshields-common.toml
+[06:18:43] [Thread-2/INFO] [Spartan Shields]: Loading config spartanshields-common.toml
+[06:18:44] [modloading-worker-0/INFO] [voicechat]: [voicechat] Compatibility version 20
+[06:18:44] [modloading-worker-0/INFO] [voicechat]: [voicechat] Loading plugins
+[06:18:44] [modloading-worker-0/INFO] [voicechat]: [voicechat] Loaded 0 plugin(s)
+[06:18:44] [modloading-worker-0/INFO] [voicechat]: [voicechat] Initializing plugins
+[06:18:44] [modloading-worker-0/INFO] [voicechat]: [voicechat] Initialized 0 plugin(s)
+[06:18:44] [modloading-worker-0/INFO] [Spartan Shields]: Setting up Spartan Shields!
+[06:18:44] [main/INFO] [journeymap]: Initializing Packet Registries
+[06:18:44] [main/INFO] [ribbits]: Registering Ribbit umbrella types...
+[06:18:44] [main/INFO] [ribbits]: Registering Ribbit professions...
+[06:18:44] [main/INFO] [ribbits]: Registering Ribbit instruments...
+[06:18:44] [main/INFO] [ribbits]: Registering Ribbit data serializers...
+[06:18:44] [main/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[06:18:44] [main/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
+[06:18:44] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[06:18:44] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[06:18:44] [main/INFO] [terrablender]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[06:18:44] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[06:18:44] [main/INFO] [terrablender]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[06:18:44] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks]: Got IMC []
+[06:18:44] [modloading-worker-0/INFO] [Jade]: Start loading plugin at ht.treechop.compat.Jade
+[06:18:44] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[06:18:44] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[06:18:44] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[06:18:44] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[06:18:44] [modloading-worker-0/INFO] [Jade]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[06:18:47] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:18:51] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[06:18:53] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 13 recipes
+[06:18:53] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2434 advancements
+[06:18:53] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 14 curio slots
+[06:18:53] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
+[06:18:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[06:18:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[06:18:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[06:18:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[06:18:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[06:18:55] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[06:18:55] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:18:55] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[06:18:55] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:18:55] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:18:55] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-6e92c504 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.4.4, NeoForge version 47.1.106)
+[06:18:56] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[06:18:56] [Server thread/INFO] []: Server Ping Player Sample Count: 5
+[06:18:56] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[06:18:57] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Loading SkinsRestorer v15.9.1
+[06:18:57] [Server thread/INFO] [com.mohistmc.MohistMC]: Enabling SkinsRestorer v15.9.1
+[06:19:01] [Server thread/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.1[32;1m.[0;39m
+[06:19:02] [Server thread/WARN] [Minecraft]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mPlease update your Java runtime to at least Java 21 (your version is 17).[0;39m
+[06:19:02] [Server thread/WARN] [Minecraft]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m[33;1mAt some point in the future, SkinsRestorer will no longer be compatible with this version of Java.[0;39m
+[06:19:02] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[06:19:02] [Thread-2/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[06:19:02] [Thread-2/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[06:19:02] [Server thread/INFO] [Puzzles Lib]: Loading server config for pickupnotifier
+[06:19:02] [Thread-2/INFO] [Puzzles Lib]: Reloading server config for pickupnotifier
+[06:19:02] [Thread-2/INFO] [Puzzles Lib]: Reloading server config for pickupnotifier
+[06:19:03] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[06:19:03] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[06:19:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[06:19:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[06:19:23] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 7%
+[06:19:23] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 68%
+[06:19:23] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 11734 ms
+[06:19:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension the_bumblezone:the_bumblezone
+[06:19:26] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 14%
+[06:19:27] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3390 ms
+[06:19:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[06:19:28] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 20%
+[06:19:28] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1778 ms
+[06:19:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[06:19:31] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[06:19:31] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2623 ms
+[06:19:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension graveyard:past
+[06:19:33] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 9%
+[06:19:34] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2456 ms
+[06:19:34] [Server thread/INFO] [com.mohistmc.MohistMC]: Enabling Mohist v1.20.1
+[06:19:34] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[06:19:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (31.277s)! For help, type "help"
+[06:19:34] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[06:19:34] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[06:19:34] [Server thread/WARN] [voicechat]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[06:19:34] [VoiceChatServerThread/INFO] [voicechat]: [voicechat] Voice host is 'open-clothing.gl.at.ply.gg:11489'
+[06:19:34] [VoiceChatServerThread/INFO] [voicechat]: [voicechat] Voice chat server started at port 11489
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.9.1[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mee713cb[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[06:19:34] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[06:20:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI joined the game
+[06:20:01] [Server thread/INFO] [Jade]: Syncing config to 1IlxqI (705d1709-c286-381f-be86-67fd091c533d)
+[06:20:01] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: 1IlxqI[/127.178.55.135:55013] logged in with entity id 1416 at ([world]-121.68845740086716, 144.0, -92.26876047762809)
+[06:20:01] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of 1IlxqI (20)
+[06:20:01] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to 1IlxqI
+[06:20:05] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully authenticated player 705d1709-c286-381f-be86-67fd091c533d
+[06:20:07] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully validated connection of player 705d1709-c286-381f-be86-67fd091c533d
+[06:20:07] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Player 1IlxqI (705d1709-c286-381f-be86-67fd091c533d) successfully connected to voice chat
+[06:20:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: M455I joined the game
+[06:20:45] [Server thread/INFO] [Jade]: Syncing config to M455I (bda8ab56-5f79-3458-afa8-b1529f1301cc)
+[06:20:45] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: M455I[/127.111.205.138:57677] logged in with entity id 1623 at ([world]-172.6164987326793, 134.0, 24.013113654351233)
+[06:20:45] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of M455I (20)
+[06:20:45] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to M455I
+[06:20:50] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully authenticated player bda8ab56-5f79-3458-afa8-b1529f1301cc
+[06:20:52] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully validated connection of player bda8ab56-5f79-3458-afa8-b1529f1301cc
+[06:20:52] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Player M455I (bda8ab56-5f79-3458-afa8-b1529f1301cc) successfully connected to voice chat
+[06:21:04] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> consigueme madera
+[06:21:12] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer]: <M455I> q madera?
+[06:21:16] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> la rosa?
+[06:21:35] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer]: <M455I> toma
+[06:28:29] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> me puedes traer arena?
+[06:28:36] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <M455I> todo quieres
+[06:28:39] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <M455I> pero voy
+[06:28:48] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> como hago la casa entonces? 🥀🥀
+[06:28:54] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer]: <M455I> jsjs
+[06:35:04] [Async Chat Thread - #4/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> necesito algo blanco
+[06:35:49] [Async Chat Thread - #5/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> tenes mechero?
+[06:35:58] [Async Chat Thread - #4/INFO] [net.minecraft.server.MinecraftServer]: <M455I> si
+[06:36:01] [Async Chat Thread - #5/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> prendelo
+[06:37:25] [Async Chat Thread - #6/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ire a minar cuarzo
+[06:37:30] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer]: <M455I> oke
+[06:37:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Incendium]
+[06:37:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [We Need to Go Deeper]
+[06:37:42] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> si pudes
+[06:37:53] [Async Chat Thread - #6/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> consigue ese musgo verde que esta en las cuevas
+[06:38:02] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> a la bestia que es este sitio
+[06:38:12] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer]: <M455I> vale vale
+[06:40:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Strange Biomes]
+[06:42:13] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ya me perdi 🥀
+[06:42:40] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <M455I> este era un lugar bonito para la casa 💔🥀🥀
+[06:42:45] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer]: <M455I> jsjsjs
+[06:42:55] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> aver
+[06:43:01] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer]: <M455I> mentira
+[06:43:03] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> a
+[06:43:17] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[06:43:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[06:43:35] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer]: <M455I> el bosq pitufo o q
+[06:43:39] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[06:43:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[06:43:42] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> que?
+[06:43:49] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> como que pitufo XD??
+[06:43:59] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <M455I> nada nada
+[06:44:15] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> te encontraste con el bosque azul?
+[06:44:21] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <M455I> no
+[06:44:24] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer]: <M455I> C:
+[06:44:36] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> no me mientas
+[06:44:39] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> 💔🥀
+[06:45:08] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer]: <M455I> mal ahi 💔💔
+[06:45:36] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer]: <M455I> una aldea
+[06:46:38] [Worker-Main-1/WARN] [lithostitched]: Non-existent template pool reference: ctov:village/bounty/plains
+[06:46:38] [Worker-Main-1/WARN] [lithostitched]: Non-existent template pool reference: ctov:village/vampirism/totem
+[06:46:38] [Worker-Main-1/WARN] [lithostitched]: Non-existent template pool reference: ctov:village/waystone/normal
+[06:46:42] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> robales
+[06:46:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[06:46:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[06:47:22] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <M455I> estoy buscando tus arbusto
+[06:47:35] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <M455I> no joda ❤
+[06:47:47] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> jsjsj yaya ❤🌹
+[06:48:09] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> pero eso se encuentra en la cueva
+[06:48:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[06:48:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[06:48:32] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <M455I> estoy buscando esa cueva
+[06:48:49] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> oh yaya ❤❤
+[06:49:04] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <M455I> otiaaa
+[06:49:30] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> que paso
+[06:49:51] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <M455I> cnaguros
+[06:49:55] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <M455I> vancguros
+[06:49:59] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <M455I> chamare
+[06:50:03] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <M455I> canguros
+[06:50:06] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> XD
+[06:50:18] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <M455I> gacelaas
+[06:50:23] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <M455I> elefanteees
+[06:50:36] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <M455I> q bonitp
+[06:51:00] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> sii
+[06:51:11] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> los mobs de alex si son bonitos
+[06:51:14] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[06:51:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[06:51:27] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[06:51:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[06:52:02] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> si llegas a encontrar el musgo
+[06:52:09] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> te traes esos arbolitos tambien
+[06:52:26] [Async Chat Thread - #10/INFO] [net.minecraft.server.MinecraftServer]: <M455I> oke
+[06:52:34] [Worker-Main-3/WARN] [lithostitched]: Non-existent template pool reference: minecraft:
+[06:52:34] [Worker-Main-3/WARN] [lithostitched]: Non-existent template pool reference: minecraft:
+[06:52:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[06:52:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[06:53:44] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer]: <M455I> encontre unacasita
+[06:53:46] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[06:53:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[06:53:48] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> aver
+[06:54:14] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer]: <M455I> dc
+[06:54:25] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> entra
+[06:54:32] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> creo que ahi encuentras un libro de hechizos
+[06:54:40] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> para que me hagas un amarre 🌹❤
+[06:54:45] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer]: <M455I> jdjsj
+[06:54:46] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> jsjsjs
+[06:54:53] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer]: <M455I> hay un chanchito
+[06:54:54] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> creo que en esa estructura es
+[06:54:58] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer]: <M455I> de estos del nether
+[06:55:02] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ohh
+[06:55:05] [Async Chat Thread - #12/INFO] [net.minecraft.server.MinecraftServer]: <M455I> pero es pacifico
+[07:00:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[07:00:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[07:00:54] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[07:00:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[07:00:59] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer]: <M455I> no habia nada mas q pociones
+[07:01:04] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> NoOO
+[07:01:14] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> yo ya termine la cada
+[07:01:19] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> cada? digo casa X
+[07:01:21] [Async Chat Thread - #14/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> D
+[07:02:19] [Async Chat Thread - #15/INFO] [net.minecraft.server.MinecraftServer]: <M455I> fotito pa ver
+[07:02:35] [Worker-Main-1/WARN] [lithostitched]: Non-existent template pool reference: minecraft:
+[07:02:35] [Worker-Main-1/WARN] [lithostitched]: Non-existent template pool reference: minecraft:
+[07:06:34] [Async Chat Thread - #16/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> hasta donde te has ido? XD
+[07:07:49] [Async Chat Thread - #18/INFO] [net.minecraft.server.MinecraftServer]: <M455I> noc 🥀🥀
+[07:07:59] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer]: <M455I> pero tengo el musgo
+[07:08:02] [Async Chat Thread - #18/INFO] [net.minecraft.server.MinecraftServer]: <M455I> creo
+[07:08:12] [Worker-Main-2/WARN] [lithostitched]: Non-existent template pool reference: minecraft:
+[07:08:12] [Worker-Main-2/WARN] [lithostitched]: Non-existent template pool reference: minecraft:
+[07:08:28] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> aver foto para ver si es o no xd
+[07:08:57] [Async Chat Thread - #18/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> y ya te mande la foto
+[07:09:42] [Async Chat Thread - #19/INFO] [net.minecraft.server.MinecraftServer]: <M455I> esta bonita sisi
+[07:11:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: No entity was found
+[07:13:02] [Async Chat Thread - #20/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> fua estas re lejos
+[07:15:22] [Async Chat Thread - #22/INFO] [net.minecraft.server.MinecraftServer]: <M455I> men ti ra
+[07:18:51] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> mi novia wey
+[07:19:04] [Async Chat Thread - #25/INFO] [net.minecraft.server.MinecraftServer]: <M455I> provecho w
+[07:19:11] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> me vio contigo 🥀
+[07:19:26] [Async Chat Thread - #25/INFO] [net.minecraft.server.MinecraftServer]: <M455I> ksjsjs
+[07:20:10] [Async Chat Thread - #24/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> a la bestia con ese cuello XD
+[07:20:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Flexible Schedule]
+[07:22:05] [Async Chat Thread - #26/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> pasame el musgo
+[07:28:50] [Async Chat Thread - #28/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> me falta flores
+[07:28:54] [Async Chat Thread - #29/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> para dartelas
+[07:29:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[07:29:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[07:30:12] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[07:30:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[07:32:06] [Async Chat Thread - #30/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> encontraste esos arbolitos pequeños?
+[07:32:08] [Async Chat Thread - #31/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> por si acaso
+[07:32:14] [Async Chat Thread - #30/INFO] [net.minecraft.server.MinecraftServer]: <M455I> no habia
+[07:32:21] [Async Chat Thread - #31/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ya
+[07:36:46] [Async Chat Thread - #32/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> que construyes? C:
+[07:36:57] [Async Chat Thread - #33/INFO] [net.minecraft.server.MinecraftServer]: <M455I> un puestito C:
+[07:37:05] [Async Chat Thread - #32/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ohh
+[07:37:12] [Async Chat Thread - #33/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ya quiero verlo cuando termines ;D
+[07:40:51] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[07:40:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[07:41:19] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[07:41:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[08:00:13] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> el diablo los fanstasmas aparecieron
+[08:00:31] [Async Chat Thread - #35/INFO] [net.minecraft.server.MinecraftServer]: <M455I> yo te dije pa dormir :C
+[08:00:41] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> a que hora? :C
+[08:01:05] [Async Chat Thread - #35/INFO] [net.minecraft.server.MinecraftServer]: <M455I> hce un buueeen rato
+[08:01:10] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ahh
+[08:01:24] [Async Chat Thread - #35/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> perdon, no vi seguro por estar construyendo la casa 🥀💔
+[08:01:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: M455I has reached the goal [Bone Crusher]
+[08:02:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: M455I has made the advancement [Flexible Schedule]
+[08:02:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has reached the goal [Postmortal]
+[08:02:04] [Server thread/INFO] [tombstone]: The player 1IlxqI has successfully been saved
+[08:02:14] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> mi totem
+[08:02:32] [Async Chat Thread - #35/INFO] [net.minecraft.server.MinecraftServer]: <M455I> como vas a gastar un totem asi
+[08:02:38] [Async Chat Thread - #34/INFO] [net.minecraft.server.MinecraftServer]: <M455I> terrible
+[08:02:50] [Async Chat Thread - #35/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> me olvide que lo tenia en mi mano 🥀🥀
+[08:04:26] [Async Chat Thread - #36/INFO] [net.minecraft.server.MinecraftServer]: <M455I> ya me bloquee
+[08:04:31] [Async Chat Thread - #37/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ksksks
+[08:04:35] [Async Chat Thread - #36/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> dios mio
+[08:04:41] [Async Chat Thread - #37/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ya vengo
+[08:04:52] [Async Chat Thread - #36/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> quito el mod para poner shader 🥀
+[08:04:53] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI lost connection: Disconnected
+[08:04:53] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client 1IlxqI
+[08:04:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI left the game
+[08:07:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI joined the game
+[08:07:57] [Server thread/INFO] [Jade]: Syncing config to 1IlxqI (705d1709-c286-381f-be86-67fd091c533d)
+[08:07:57] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: 1IlxqI[/127.178.55.135:45535] logged in with entity id 31306 at ([world]-137.093840195569, 146.0, -51.288271730619435)
+[08:07:58] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of 1IlxqI (20)
+[08:07:58] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to 1IlxqI
+[08:08:03] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully authenticated player 705d1709-c286-381f-be86-67fd091c533d
+[08:08:05] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully validated connection of player 705d1709-c286-381f-be86-67fd091c533d
+[08:08:05] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Player 1IlxqI (705d1709-c286-381f-be86-67fd091c533d) successfully connected to voice chat
+[08:08:13] [Async Chat Thread - #38/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> vamo a dormir?
+[08:08:18] [Async Chat Thread - #39/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> no me gusta la lluvia
+[08:08:24] [Async Chat Thread - #38/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> a pera todavia es de dia XD
+[08:08:33] [Async Chat Thread - #39/INFO] [net.minecraft.server.MinecraftServer]: <M455I> sopla
+[08:10:23] [Async Chat Thread - #40/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> MIS FPS
+[08:10:32] [Async Chat Thread - #40/INFO] [net.minecraft.server.MinecraftServer]: <M455I> XD
+[08:12:12] [Async Chat Thread - #42/INFO] [net.minecraft.server.MinecraftServer]: <M455I> memato
+[08:15:21] [Async Chat Thread - #44/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> que paso
+[08:15:32] [Async Chat Thread - #45/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> porque lo rompes?? 🥀🥀
+[08:15:49] [Async Chat Thread - #44/INFO] [net.minecraft.server.MinecraftServer]: <M455I> porq estaba chueco C:
+[08:15:52] [Async Chat Thread - #45/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> aa
+[08:16:36] [Async Chat Thread - #44/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> necesitas que te consiga algo?
+[08:17:16] [Async Chat Thread - #45/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> que te costaba escribirlo? XD
+[08:17:29] [Async Chat Thread - #44/INFO] [net.minecraft.server.MinecraftServer]: <M455I> mis dedos estan congelados xde
+[08:21:04] [Async Chat Thread - #46/INFO] [net.minecraft.server.MinecraftServer]: <M455I> gracias
+[08:21:08] [Async Chat Thread - #47/INFO] [net.minecraft.server.MinecraftServer]: <M455I> :D
+[08:21:13] [Async Chat Thread - #46/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> si necesitas algo mas
+[08:21:17] [Async Chat Thread - #47/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> me lo dices ❤🌹
+[08:27:54] [Async Chat Thread - #48/INFO] [net.minecraft.server.MinecraftServer]: <M455I> ya no contruire nunca en mi vida
+[08:28:01] [Async Chat Thread - #49/INFO] [net.minecraft.server.MinecraftServer]: <M455I> q horror
+[08:28:01] [Async Chat Thread - #48/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> porque? sjjss
+[08:28:16] [Async Chat Thread - #49/INFO] [net.minecraft.server.MinecraftServer]: <M455I> esq noc
+[08:28:25] [Async Chat Thread - #48/INFO] [net.minecraft.server.MinecraftServer]: <M455I> no tengo paciencia para esto creo xde
+[08:33:23] [Async Chat Thread - #50/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> quema eso
+[08:33:26] [Async Chat Thread - #51/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> pls
+[08:34:41] [Async Chat Thread - #52/INFO] [net.minecraft.server.MinecraftServer]: <M455I> durmamosss
+[08:34:44] [Async Chat Thread - #53/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> sisi
+[08:34:48] [Async Chat Thread - #52/INFO] [net.minecraft.server.MinecraftServer]: <M455I> la lluvia me vuelve loca
+[08:35:08] [Async Chat Thread - #53/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ami tambien XD
+[08:35:15] [Async Chat Thread - #52/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> es muy molesto
+[08:35:26] [Async Chat Thread - #52/INFO] [net.minecraft.server.MinecraftServer]: <M455I> sisi
+[08:35:55] [Async Chat Thread - #53/INFO] [net.minecraft.server.MinecraftServer]: <M455I> tienes lana?
+[08:36:04] [Async Chat Thread - #52/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> tengo 2 rojas
+[08:36:18] [Async Chat Thread - #53/INFO] [net.minecraft.server.MinecraftServer]: <M455I> me lasdas C:?
+[08:36:22] [Async Chat Thread - #52/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> vava
+[08:36:29] [Async Chat Thread - #53/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> esta en el cofre de abajo
+[08:36:32] [Async Chat Thread - #52/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> dentro de la casa
+[08:40:35] [Async Chat Thread - #54/INFO] [net.minecraft.server.MinecraftServer]: <M455I> gracias C:
+[08:40:47] [Async Chat Thread - #55/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> de nada ❤🌹
+[08:45:51] [Async Chat Thread - #56/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> dame una mochila
+[08:45:58] [Async Chat Thread - #57/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> para mejorartelo
+[08:46:31] [Async Chat Thread - #56/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ahi esta
+[08:48:05] [Async Chat Thread - #58/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> tienes cuero?
+[08:49:03] [Async Chat Thread - #59/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ya tengo mi mochila para explorar jsjsj
+[08:49:16] [Async Chat Thread - #58/INFO] [net.minecraft.server.MinecraftServer]: <M455I> sksjs
+[08:49:19] [Async Chat Thread - #59/INFO] [net.minecraft.server.MinecraftServer]: <M455I> bn bn
+[08:49:25] [Async Chat Thread - #58/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> puedes mejorar tu mochila por cierto
+[08:50:02] [Async Chat Thread - #59/INFO] [net.minecraft.server.MinecraftServer]: <M455I> oke oke
+[08:50:33] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[08:50:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[08:51:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Into Fire]
+[08:52:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[08:52:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[08:56:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[08:56:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[08:56:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[08:56:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[08:59:50] [Async Chat Thread - #60/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> tienes restone?
+[09:00:07] [Async Chat Thread - #61/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> me falta ir a minar 🥀
+[09:00:07] [Async Chat Thread - #60/INFO] [net.minecraft.server.MinecraftServer]: <M455I> nop
+[09:01:02] [Async Chat Thread - #61/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> me ando preparando para lo que se viene 🥀
+[09:01:13] [Async Chat Thread - #62/INFO] [net.minecraft.server.MinecraftServer]: <M455I> q se viene?
+[09:01:17] [Async Chat Thread - #61/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> jefes
+[09:01:27] [Async Chat Thread - #62/INFO] [net.minecraft.server.MinecraftServer]: <M455I> cierto cierto
+[09:01:40] [Async Chat Thread - #61/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ire a farmear barras de fuego
+[09:01:48] [Async Chat Thread - #62/INFO] [net.minecraft.server.MinecraftServer]: <M455I> okee
+[09:03:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI fell while climbing
+[09:03:59] [Server thread/INFO] [tombstone]: The player 1IlxqI has successfully been saved
+[09:04:02] [Async Chat Thread - #63/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> ...
+[09:04:03] [Async Chat Thread - #64/INFO] [net.minecraft.server.MinecraftServer]: <M455I> ..
+[09:04:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Darude - Firestorm]
+[09:04:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Nightmare Fuel]
+[09:04:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Light-Sensitive]
+[09:04:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI was fireballed by Ghast
+[09:04:54] [Server thread/INFO] [tombstone]: The player 1IlxqI has successfully been saved
+[09:04:59] [Async Chat Thread - #63/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> EL DIABLO!!
+[09:05:04] [Async Chat Thread - #64/INFO] [net.minecraft.server.MinecraftServer]: <M455I> q pasoo
+[09:05:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has completed the challenge [Border of Life]
+[09:06:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has reached the goal [Apparitions]
+[09:06:44] [Async Chat Thread - #65/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> un mosquito me chupo la sangre
+[09:06:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: M455I has made the advancement [The Parrots and the Bats]
+[09:07:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: M455I has made the advancement [Neighborhood Brawl]
+[09:07:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Those Were the Days]
+[09:09:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [War Pigs]
+[09:09:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Hidden in the Depths]
+[09:13:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI has made the advancement [Who is Cutting Onions?]
+[09:14:45] [Async Chat Thread - #67/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> DINERO DINERO DINERO
+[09:18:27] [Async Chat Thread - #69/INFO] [net.minecraft.server.MinecraftServer]: <M455I> ya me dio sueño 🥀🥀💔
+[09:20:57] [Async Chat Thread - #71/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> jsjs vamos a descansar entonces?
+[09:21:01] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[09:21:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[09:21:12] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[09:21:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[09:23:05] [Async Chat Thread - #73/INFO] [net.minecraft.server.MinecraftServer]: <M455I> si 🥀
+[09:24:08] [Async Chat Thread - #75/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> jsjs vamo vamo
+[09:24:18] [Async Chat Thread - #76/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> voy ir apagando el server
+[09:24:24] [Async Chat Thread - #75/INFO] [net.minecraft.server.MinecraftServer]: <M455I> esperaaa
+[09:24:29] [Async Chat Thread - #76/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> vava, espero
+[09:25:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: M455I has completed the challenge [Premium!]
+[09:25:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: M455I fell from a high place
+[09:25:32] [Server thread/INFO] [tombstone]: The player M455I has successfully been saved
+[09:25:39] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> xd?
+[09:25:49] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> mira dice premium con uno pirata jsjsjs
+[09:26:12] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <M455I> ..
+[09:26:16] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode creative
+[09:26:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Creative Mode]
+[09:26:18] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <M455I> yaya asi eres
+[09:26:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI issued server command: /gamemode survival
+[09:26:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [1IlxqI: Set own game mode to Survival Mode]
+[09:26:32] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> te quiero mucho y lo sabes jsjs ❤❤🌹🌹
+[09:26:58] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <M455I> jsajs
+[09:27:38] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <M455I> dos minutos mas C:
+[09:27:44] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> yaya
+[09:27:51] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> yo te espero, tranquila sjjs
+[09:28:25] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> y porque no lo llevas a la casa?
+[09:28:35] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <M455I> y hacer todo el caminote'
+[09:28:44] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <M455I> no gracias jsjsa
+[09:28:49] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> yo lo hago por ti si quieres ❤🌹
+[09:29:00] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <M455I> tal vez tal vez
+[09:29:12] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <M455I> listo
+[09:29:22] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> para la proxima ya podemos ir al end
+[09:29:29] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <M455I> oke oke
+[09:29:59] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> bueno vamo para que descanses jsjs
+[09:30:01] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <M455I> ven ven fotito en la casa sjjs
+[09:30:05] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> vava
+[09:30:53] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> me clavaron unas 2 feclas jsjs
+[09:31:01] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> fechas*
+[09:31:09] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <M455I> XD
+[09:31:15] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <M455I> cierto
+[09:31:35] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <M455I> listo
+[09:31:38] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> aver
+[09:32:24] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <M455I> ahora si jsjs
+[09:32:26] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> llegamos casi 6 horas jugando xd
+[09:32:28] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> bueno vamo
+[09:32:32] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <M455I> q horror
+[09:32:43] [Async Chat Thread - #78/INFO] [net.minecraft.server.MinecraftServer]: <M455I> buenas noches ❤🌹
+[09:32:56] [Async Chat Thread - #77/INFO] [net.minecraft.server.MinecraftServer]: <1IlxqI> buenas noches ❤🌹
+[09:33:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: M455I lost connection: Disconnected
+[09:33:06] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client M455I
+[09:33:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: M455I left the game
+[09:33:08] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: 1IlxqI lost connection: Disconnected
+[09:33:08] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client 1IlxqI
+[09:33:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 1IlxqI left the game
+[09:33:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping the server
+[09:33:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[09:33:12] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[09:33:12] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Disabling SkinsRestorer v15.9.1
+[09:33:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[09:33:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[09:33:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:33:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world/the_bumblezone/the_bumblezone]'/the_bumblezone:the_bumblezone
+[09:33:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[09:33:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[09:33:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world/graveyard/past]'/graveyard:past
+[09:33:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:33:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (the_bumblezone): All chunks are saved
+[09:33:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:33:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:33:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[09:33:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:33:20] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
